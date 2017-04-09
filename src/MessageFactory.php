@@ -31,6 +31,7 @@ class MessageFactory
 
         $headers = [];
 
+
         foreach($exploded as $line){
             if($line){
                 $regexForSplittingHeader = '%(^.+?(?=:)):(.*)%';
