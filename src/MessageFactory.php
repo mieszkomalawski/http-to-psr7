@@ -2,6 +2,7 @@
 namespace MMal\HttpToPsr;
 
 use GuzzleHttp\Psr7\Request;
+use GuzzleHttp\Psr7\ServerRequest;
 use Psr\Http\Message\RequestInterface;
 
 /**
@@ -41,7 +42,7 @@ class MessageFactory
             }
         }
 
-        return new Request($method, $headers['Host'][0], $headers, $bodyPart);
+        return new ServerRequest($method, $headers['Host'][0], $headers, $bodyPart);
     }
 
     /**
