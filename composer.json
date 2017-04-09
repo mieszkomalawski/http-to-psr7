@@ -1,4 +1,13 @@
 {
+    "name": "mmal/http-to-psr7",
+    "description": "",
+    "type": "library",
+    "keywords": [ "psr7" ],
+    "homepage": "https://github.com/mieszkomalawski/http-to-psr7",
+    "license": "MIT",
+    "authors": [
+        { "name": "Mieszko Malawski", "email": "mieszkomalawski@gmail.com" }
+    ],
     "autoload": {
         "psr-4": {
             "MMal\\HttpToPsr\\": "src",
