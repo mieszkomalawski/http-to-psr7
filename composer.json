@@ -1,6 +1,6 @@
 {
     "name": "mmal/http-to-psr7",
-    "description": "",
+    "description": "Create psr7 request from raw http message string",
     "type": "library",
     "keywords": [ "psr7" ],
     "homepage": "https://github.com/mieszkomalawski/http-to-psr7",
